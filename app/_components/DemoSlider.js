@@ -26,14 +26,18 @@ const DemoSlider = ({ data }) => {
             {data.map(
               ({ id, title, image, time, link, distance, pro, con }) => (
                 <SwiperSlide key={id}>
-                  <div className="flex justify-between items-center text-white bg-orange-600 text-lg px-8 py-4">
+                  <div className="flex justify-between items-center text-white bg-orange-600 text-xl px-8 py-4">
                     <p>{title}</p>
-                    <p className="cursor-pointer">
-                      <a href={link} target="_blank">
+                    <p className="cursor-pointer bg-zinc-50 rounded-full">
+                      <a
+                        href={link}
+                        target="_blank"
+                        className="w-10 h-10 flex justify-center"
+                      >
                         <Image
-                          src="/search-icon.png"
-                          width={20}
-                          height={20}
+                          src="/mapIcon.svg"
+                          width={30}
+                          height={30}
                           alt=""
                         />
                       </a>

@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: "A.雞肉先生",
+    title: "雞肉先生",
     image: "/menu-a.jpeg",
     time: "11:30-20:30",
     link: "https://maps.app.goo.gl/CdtsBFMTW25dGmf47",
@@ -11,7 +11,7 @@ const data = [
   },
   {
     id: 2,
-    title: "B.阿泉小吃什錦麵鵝肉熱炒",
+    title: "阿泉小吃-什錦麵鵝肉熱炒",
     image: "/menu-b.jpeg",
     time: "16:00-00:00",
     link: "https://maps.app.goo.gl/dPDUM9ZAveaU8j4o7",
