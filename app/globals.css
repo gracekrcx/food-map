@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .TextAlignLast {
+    text-align-last: justify;
+  }
+}
+
 .swiper {
   height: 100%;
   width: 100%;
@@ -14,8 +20,4 @@
 
 .swiper [class^="swiper-button-"]::after {
   font-size: 24px;
-}
-
-body {
-  overflow: hidden;
 }
