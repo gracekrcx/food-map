@@ -21,7 +21,7 @@ const data = [
   },
   {
     id: 3,
-    title: "御禾號滷肉飯-現碾白米",
+    title: "御禾號滷肉飯",
     image: "/menu-c.jpeg",
     time: "18:00–22:00",
     link: "https://maps.app.goo.gl/k7EVkW3iZUaFMfDL9",
